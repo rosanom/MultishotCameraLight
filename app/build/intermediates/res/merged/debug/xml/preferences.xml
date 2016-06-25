@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Preferenze"
+        android:key="pref">
+        <ListPreference
+            android:title="@string/seconds_title"
+            android:summary="Seleziona il tempo di registrazione massimo in secondi"
+            android:key="seconds"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues" />
+        <ListPreference
+            android:title="@string/frameRate_title"
+            android:summary="Seleziona il numero di frame al secondo da estrarre"
+            android:key="frameRate"
+            android:entries="@array/frameArray"
+            android:entryValues="@array/frameValues" />
+
+        <CheckBoxPreference android:title="Elimina video"
+            android:summary="Elimina il video dopo l'estrazione dei frames"
+            android:key="deleteVideo"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Calibrazione"
+        android:key="train">
+        <Preference android:title="Calibrazione framerate" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.example.marcoj.multishot"
+                android:targetClass="com.example.marcoj.multishot.FramerateTrain" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

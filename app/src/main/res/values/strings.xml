@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Multishot Camera Light</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="shot_button">Apri fotocamera</string>
+    <string name="loading_textView">Estrazione frames in corso...</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_framerate_train">FramerateTrain</string>
+    <string name="title_activity_preferences">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="seconds_title">Durata del video</string>
+    <string name="map_button">mappa delle foto</string>
+    <string name="preferences_button">Impostazioni</string>
+    <string name="title_activity_settings2">SettingsActivity2</string>
+    <string name="calibration_textview">Calibrazione in corso...</string>
+    <string name="calibration_button">Chiudi</string>
+    <string name="frameRate_title">Foto al secondo</string>
+</resources>

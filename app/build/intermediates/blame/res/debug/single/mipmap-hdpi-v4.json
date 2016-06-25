@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/marcoj/AndroidStudioProjects/Multishot/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/splash.png",
+        "source": "/home/marcoj/AndroidStudioProjects/Multishot/app/src/main/res/mipmap-hdpi/splash.png"
+    },
+    {
+        "merged": "/home/marcoj/AndroidStudioProjects/Multishot/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/home/marcoj/AndroidStudioProjects/Multishot/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/marcoj/AndroidStudioProjects/Multishot/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/home/marcoj/AndroidStudioProjects/Multishot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/home/marcoj/AndroidStudioProjects/Multishot/app/build/intermediates/res/merged/debug/raw/train_video.mp4",
+        "source": "/home/marcoj/AndroidStudioProjects/Multishot/app/src/main/res/raw/train_video.mp4"
+    }
+]
